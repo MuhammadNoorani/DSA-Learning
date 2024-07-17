@@ -1,0 +1,56 @@
+# Ignore IntelliJ IDEA project files
+*.iml
+.idea/
+
+# Ignore build output directories
+out/
+target/
+
+# Ignore Git directories
+.git/
+
+# Ignore miscellaneous files
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore files created by package managers
+node_modules/
+
+# Additional exclusions specific to IntelliJ IDEA
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Additional exclusions for Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Additional exclusions for NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code specific exclusion
+.vscode/
